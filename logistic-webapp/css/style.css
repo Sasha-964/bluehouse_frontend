@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+              url('../images/background.jpg') center/cover no-repeat;
+  height: 100vh;
+  color: white;
+}
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+

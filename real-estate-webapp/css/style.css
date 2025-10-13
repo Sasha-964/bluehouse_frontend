@@ -1,0 +1,64 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('../images/background.jpg') no-repeat center center/cover;
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar-brand {
+  color: #f8f9fa !important;
+}
+
+.nav-link {
+  color: #ddd !important;
+}
+
+.nav-link:hover {
+  color: #fff !important;
+}
+
+/* Hero Section */
+.hero {
+  height: 90vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* Auth Pages */
+.auth-section {
+  height: 85vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* Card Styling */
+.card {
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #333;
+  border-radius: 10px;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
